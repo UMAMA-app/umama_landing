@@ -144,10 +144,24 @@ main {
 }
 
 .hero-image {
-    width: min(360px, 85%);
+    width: min(320px, 75%);
     height: auto;
     filter: drop-shadow(0 30px 50px rgba(56, 68, 175, 0.35));
     animation: lift 7s ease-in-out infinite;
+    position: relative;
+    left: -30px;
+    top: -20px;
+}
+
+.hero-image-second {
+    position: absolute;
+    width: min(300px, 70%);
+    height: auto;
+    top: 10px;
+    right: -20px;
+    filter: drop-shadow(0 25px 45px rgba(56, 68, 175, 0.3));
+    animation: lift 7s ease-in-out infinite 1s;
+    opacity: 0.95;
 }
 
 .calm {
